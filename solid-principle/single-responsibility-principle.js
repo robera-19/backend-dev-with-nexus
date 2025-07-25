@@ -16,19 +16,19 @@
 // // }
 
 // better implementation!!!
-// class Employee {
-//   constructor(name, salary) {
-//     this.name = name;
-//     this.salary = salary;
-//   }
-// }
-// class ReportPrinter {
-//   printReport(employee) {
-//     console.log(`Printing ${employee.name}`);
-//   }
-// }
+class Employee {
+    constructor(name, salary) {
+        this.name = name;
+        this.salary = salary;
+    }
+}
+class ReportPrinter {
+    printReport(employee) {
+        console.log(`Printing ${employee.name}`);
+    }
+}
 
-// const employee = new Employee("Nexus", 2000);
-// const reportPrinter = new ReportPrinter();
-// reportPrinter.printReport(employee);
+const employee = new Employee("Nexus", 2000);
+const reportPrinter = new ReportPrinter();
+reportPrinter.printReport(employee);
 // //
